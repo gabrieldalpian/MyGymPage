@@ -5,10 +5,10 @@ joinNowButton.addEventListener('click', () => {
 });
 
 // Show an alert when any navigation link (HOME, MEMBERSHIPS, LOCATION, CONTACT) is clicked
-const navLinks = document.querySelectorAll('nav a'); // Get all nav links
+const navLinks = document.querySelectorAll('nav a'); 
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
-        alert(`You clicked on ${link.textContent}`); // Show alert with the link text
+        alert(`You clicked on ${link.textContent}`); 
     });
 });
 
