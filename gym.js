@@ -1,6 +1,5 @@
 // Show an alert when the "Join Now" button in the header is clicked
-const joinNowButton = document.querySelector('#join-now');
-joinNowButton.addEventListener('click', () => {
+document.querySelector('.join-now').addEventListener('click', () => {
     alert('Thank you for your interest! Check our memberships below.');
 });
 
@@ -11,6 +10,7 @@ navLinks.forEach(link => {
         alert(`You clicked on ${link.textContent}`); 
     });
 });
+
 
 // Show an alert when any "Join Now" button in the membership section is clicked
 const membershipButtons = document.querySelectorAll('.membership-card button');
